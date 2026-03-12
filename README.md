@@ -4,12 +4,14 @@ Standalone AI skills adapted from selected BMAD workflows, rewritten to run inde
 
 ## Why This Repo Exists
 
-I liked parts of BMAD, especially some of the skills and tooling, but the full method often felt overengineered for what I needed.
+I found substantial value in BMAD, particularly in its skills and tooling, but the full methodology was more process-heavy than my use case required.
 
-This repo keeps the useful parts and removes the extra process overhead:
+To simplify day-to-day use, I isolated the components I found most useful and repackaged them as standalone skills in this repository for easier access and installation.
+
+This repository keeps the practical parts and removes unnecessary overhead:
 - standalone skills
 - local references only
-- simpler install and usage
+- simpler installation and usage
 
 ## Included Skills
 
