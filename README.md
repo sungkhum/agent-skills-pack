@@ -1,6 +1,15 @@
-# Standalone Skills Extracted From BMAD-METHOD
+# Agent Skills Pack
 
-This repository contains standalone AI skills adapted from selected workflows/tasks in the BMAD ecosystem, with neutral skill names for independent use.
+Standalone AI skills adapted from selected BMAD workflows, rewritten to run independently.
+
+## Why This Repo Exists
+
+I liked parts of BMAD, especially some of the skills and tooling, but the full method often felt overengineered for what I needed.
+
+This repo keeps the useful parts and removes the extra process overhead:
+- standalone skills
+- local references only
+- simpler install and usage
 
 ## Included Skills
 
@@ -15,15 +24,15 @@ This repository contains standalone AI skills adapted from selected workflows/ta
 
 ## Install
 
-Interactive install (recommended):
+Recommended interactive install:
 
 ```bash
 npx -y skills add https://github.com/sungkhum/agent-skills-pack
 ```
 
-This mode prompts you to:
-- choose which skills to install
-- choose which agent(s) to install to (Codex, Claude, etc.)
+This will prompt you to choose:
+- which skills to install
+- which agent(s) to install to (Codex, Claude, etc.)
 
 Install one specific skill (still interactive for agent selection):
 
@@ -31,13 +40,13 @@ Install one specific skill (still interactive for agent selection):
 npx -y skills add https://github.com/sungkhum/agent-skills-pack --skill code-review
 ```
 
-List available skills before installing:
+List available skills:
 
 ```bash
 npx -y skills add https://github.com/sungkhum/agent-skills-pack --list
 ```
 
-Non-interactive install (optional):
+Optional non-interactive install:
 
 ```bash
 npx -y skills add https://github.com/sungkhum/agent-skills-pack --agent codex --yes --copy
@@ -45,14 +54,13 @@ npx -y skills add https://github.com/sungkhum/agent-skills-pack --agent codex --
 
 - `--yes` skips confirmation prompts.
 - `--copy` copies files into your agent directory instead of symlinking them.
-- If you omit `--copy`, the CLI symlinks by default.
+- If you omit `--copy`, the CLI uses symlinks.
 
 After install, restart Codex so newly installed skills are picked up.
 
 ## Attribution
 
-These skills are adapted from the BMAD project:
-
+These skills are adapted from:
 - Source repository: https://github.com/bmad-code-org/BMAD-METHOD
 - Organization: BMad Code, LLC
 
@@ -60,16 +68,14 @@ Full credit for the original methodology, workflow design, and source materials 
 
 ## Licensing
 
-The BMAD-METHOD repository is licensed under MIT (software license):
+BMAD-METHOD is licensed under MIT:
+- https://github.com/bmad-code-org/BMAD-METHOD/blob/main/LICENSE
 
-- BMAD LICENSE: https://github.com/bmad-code-org/BMAD-METHOD/blob/main/LICENSE
-
-This repository contains derived/adapted materials from that project. Keep the original copyright and license notices when redistributing substantial portions.
+This repository contains derived/adapted materials from that project. Keep original copyright and license notices when redistributing substantial portions.
 
 ## Trademark Notice
 
-BMAD names and branding are trademarks of BMad Code, LLC and are not granted by the MIT software license.
-
-- BMAD trademark policy: https://github.com/bmad-code-org/BMAD-METHOD/blob/main/TRADEMARK.md
+BMAD names and branding are trademarks of BMad Code, LLC and are not granted by the MIT software license:
+- https://github.com/bmad-code-org/BMAD-METHOD/blob/main/TRADEMARK.md
 
 This repository is an independent adaptation and is not an official BMAD product or endorsement.
