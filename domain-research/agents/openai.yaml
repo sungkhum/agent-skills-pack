@@ -1,0 +1,4 @@
+interface:
+  display_name: "Domain Research"
+  short_description: "Domain and industry research with verified sources"
+  default_prompt: "Conduct a domain research report for my topic using current web sources and citations."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Research"
+  short_description: "Market research with competitive and customer insights"
+  default_prompt: "Conduct a market research report for my topic using current web sources and citations."

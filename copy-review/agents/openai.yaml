@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copy Review"
+  short_description: "Clinical prose review for clarity and comprehension"
+  default_prompt: "Review this text for communication issues and return minimal fixes in a three-column table."

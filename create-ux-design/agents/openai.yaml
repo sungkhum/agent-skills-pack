@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create UX Design"
+  short_description: "Create UX design specs through a guided workflow"
+  default_prompt: "Create a UX design specification document for my product using the BMAD workflow."

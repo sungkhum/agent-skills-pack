@@ -1,0 +1,4 @@
+interface:
+  display_name: "Edge Case Hunter"
+  short_description: "Exhaustive edge-case path tracing for diffs or code"
+  default_prompt: "Trace branching paths and boundary conditions in the provided diff or code and output only unhandled edge cases as JSON."

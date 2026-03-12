@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Writer"
+  short_description: "Technical writing, validation, diagrams, and explanations"
+  default_prompt: "Write or validate technical documentation using the BMAD documentation standards."

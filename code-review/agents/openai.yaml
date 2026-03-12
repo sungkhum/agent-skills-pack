@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review"
+  short_description: "Adversarial code review against story/ACs and git changes"
+  default_prompt: "Run an adversarial code review that validates acceptance criteria, tasks, and actual git changes. Report issues with severity and file:line evidence."
