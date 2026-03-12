@@ -8,11 +8,6 @@ I found substantial value in BMAD, particularly in its skills and tooling, but t
 
 To simplify day-to-day use, I isolated the components I found most useful and repackaged them as standalone skills in this repository for easier access and installation.
 
-This repository keeps the practical parts and removes unnecessary overhead:
-- standalone skills
-- local references only
-- simpler installation and usage
-
 ## Included Skills
 
 - `code-review`
