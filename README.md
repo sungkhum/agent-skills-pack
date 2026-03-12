@@ -10,14 +10,14 @@ To simplify day-to-day use, I isolated the components I found most useful and re
 
 ## Included Skills
 
-- `code-review`
-- `copy-review`
-- `create-ux-design`
-- `domain-research`
-- `edge-case-hunter`
-- `market-research`
-- `tech-writer`
-- `ux-designer`
+- `code-review`: Adversarial code review that validates stories/specs, acceptance criteria, and actual git changes.
+- `copy-review`: Clinical prose review that returns minimal clarity fixes in a 3-column markdown table.
+- `create-ux-design`: Step-by-step UX facilitation workflow that builds a complete UX design specification.
+- `domain-research`: Web-backed domain/industry research with structured synthesis and citations.
+- `edge-case-hunter`: Exhaustive branch and boundary analysis that outputs only unhandled edge cases as JSON.
+- `market-research`: Web-backed market research covering customer behavior, pain points, decisions, and competition.
+- `tech-writer`: Technical writing assistant for drafting docs, validating quality, explaining concepts, and Mermaid diagrams.
+- `ux-designer`: UX design facilitation focused on discovery, interaction patterns, and specification delivery.
 
 ## Install
 
