@@ -1,9 +1,9 @@
 ---
 name: market-research
-description: Standalone market research workflow based on BMAD. Use when the user asks for market research, competitive landscape analysis, customer needs, market trends, or a market research report about a business idea.
+description: Standalone market research workflow. Use when the user asks for market research, competitive landscape analysis, customer needs, market trends, or a market research report about a business idea.
 ---
 
-# BMM Market Research
+# Market Research
 
 ## Overview
 

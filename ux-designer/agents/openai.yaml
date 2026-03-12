@@ -1,4 +1,4 @@
 interface:
   display_name: "UX Designer"
   short_description: "UX discovery, interaction design, and UX specs"
-  default_prompt: "Help me create a UX design specification using the BMAD UX workflow."
+  default_prompt: "Help me create a UX design specification using this UX workflow."

@@ -15,7 +15,7 @@ description: 'Complete project documentation workflow (initial scan or full resc
 
 ### Configuration Loading
 
-Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
+If `{project-root}/workflow-config.yaml` exists, load it. Otherwise ask the user for missing values and resolve:
 
 - `project_knowledge`
 - `user_name`
@@ -23,10 +23,10 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
 ### Paths
 
-- `installed_path` = `{project-root}/_bmad/bmm/workflows/document-project/workflows`
+- `installed_path` = `references/document-project/workflows`
 - `instructions` = `{installed_path}/full-scan-instructions.md`
-- `validation` = `{project-root}/_bmad/bmm/workflows/document-project/checklist.md`
-- `documentation_requirements_csv` = `{project-root}/_bmad/bmm/workflows/document-project/documentation-requirements.csv`
+- `validation` = `references/document-project/checklist.md`
+- `documentation_requirements_csv` = `references/document-project/documentation-requirements.csv`
 
 ### Runtime Inputs
 

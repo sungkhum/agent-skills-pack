@@ -16,7 +16,7 @@ description: 'Document brownfield projects for AI context. Use when the user say
 
 ### Configuration Loading
 
-Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
+If `{project-root}/workflow-config.yaml` exists, load it. Otherwise ask the user for missing values and resolve:
 
 - `project_knowledge`
 - `user_name`
@@ -27,7 +27,7 @@ Load config from `{project-root}/_bmad/bmm/config.yaml` and resolve:
 
 ### Paths
 
-- `installed_path` = `{project-root}/_bmad/bmm/workflows/document-project`
+- `installed_path` = `references/document-project`
 - `instructions` = `{installed_path}/instructions.md`
 - `validation` = `{installed_path}/checklist.md`
 - `documentation_requirements_csv` = `{installed_path}/documentation-requirements.csv`

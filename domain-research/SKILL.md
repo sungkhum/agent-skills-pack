@@ -1,9 +1,9 @@
 ---
 name: domain-research
-description: Standalone domain or industry research workflow based on BMAD. Use when the user asks for domain research, industry analysis, sector overviews, regulatory landscape, or a domain research report.
+description: Standalone domain or industry research workflow. Use when the user asks for domain research, industry analysis, sector overviews, regulatory landscape, or a domain research report.
 ---
 
-# BMM Domain Research
+# Domain Research
 
 ## Overview
 

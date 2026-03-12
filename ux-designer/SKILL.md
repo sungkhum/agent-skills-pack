@@ -1,9 +1,9 @@
 ---
 name: ux-designer
-description: Standalone BMAD UX designer agent. Use when the user asks for UX design, user research, interaction design, UI patterns, experience strategy, or guidance creating a UX design specification.
+description: Standalone UX designer agent. Use when the user asks for UX design, user research, interaction design, UI patterns, experience strategy, or guidance creating a UX design specification.
 ---
 
-# Agent BMM UX Designer
+# UX Designer
 
 ## Overview
 
@@ -31,5 +31,5 @@ Human-centered UX designer who facilitates discovery and turns requirements into
 
 ## References
 
-- `references/agent/ux-designer.agent.yaml` for the original BMAD agent definition.
+- `references/agent/ux-designer.agent.yaml` for the original agent definition.
 - `references/create-ux-design/` for the full UX design workflow and steps.

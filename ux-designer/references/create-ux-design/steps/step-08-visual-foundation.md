@@ -30,8 +30,8 @@ This step will generate content and present choices:
 
 ## PROTOCOL INTEGRATION:
 
-- When 'A' selected: Read fully and follow: {project-root}/_bmad/core/workflows/advanced-elicitation/workflow.md
-- When 'P' selected: Read fully and follow: {project-root}/_bmad/core/workflows/bmad-party-mode/workflow.md
+- When 'A' selected: run an internal advanced clarification pass (ask 3-5 targeted questions, resolve ambiguities, then update this section).
+- When 'P' selected: run an internal multi-perspective pass (user, business, engineering), then update this section.
 - PROTOCOLS always return to this step's A/P/C menu
 - User accepts/rejects protocol changes before proceeding
 
@@ -169,7 +169,7 @@ Show the generated visual foundation content and present choices:
 
 #### If 'A' (Advanced Elicitation):
 
-- Read fully and follow: {project-root}/_bmad/core/workflows/advanced-elicitation/workflow.md with the current visual foundation content
+- For 'A': perform the advanced clarification pass on the current visual foundation content and apply edits directly.
 - Process the enhanced visual insights that come back
 - Ask user: "Accept these improvements to the visual foundation? (y/n)"
 - If yes: Update content with improvements, then return to A/P/C menu
@@ -177,7 +177,7 @@ Show the generated visual foundation content and present choices:
 
 #### If 'P' (Party Mode):
 
-- Read fully and follow: {project-root}/_bmad/core/workflows/bmad-party-mode/workflow.md with the current visual foundation
+- For 'P': perform the multi-perspective pass on the current visual foundation and apply edits directly.
 - Process the collaborative visual insights that come back
 - Ask user: "Accept these changes to the visual foundation? (y/n)"
 - If yes: Update content with improvements, then return to A/P/C menu
@@ -187,7 +187,7 @@ Show the generated visual foundation content and present choices:
 
 - Append the final content to `{planning_artifacts}/ux-design-specification.md`
 - Update frontmatter: append step to end of stepsCompleted array
-- Load `{project-root}/_bmad/bmm/workflows/2-plan-workflows/create-ux-design/steps/step-09-design-directions.md`
+- Load `references/create-ux-design/steps/step-09-design-directions.md`
 
 ## APPEND TO DOCUMENT:
 
@@ -219,6 +219,6 @@ When user selects 'C', append the content directly to the document using the str
 
 ## NEXT STEP:
 
-After user selects 'C' and content is saved to document, load `{project-root}/_bmad/bmm/workflows/2-plan-workflows/create-ux-design/steps/step-09-design-directions.md` to generate design direction mockups.
+After user selects 'C' and content is saved to document, load `references/create-ux-design/steps/step-09-design-directions.md` to generate design direction mockups.
 
 Remember: Do NOT proceed to step-09 until user explicitly selects 'C' from the A/P/C menu and content is saved!

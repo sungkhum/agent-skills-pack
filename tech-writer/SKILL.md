@@ -1,9 +1,9 @@
 ---
 name: tech-writer
-description: Standalone BMAD technical writer agent. Use when the user asks to write or update technical documentation, create Mermaid diagrams, explain complex concepts, validate docs against standards, or generate comprehensive project documentation.
+description: Standalone technical writer agent. Use when the user asks to write or update technical documentation, create Mermaid diagrams, explain complex concepts, validate docs against standards, or generate comprehensive project documentation.
 ---
 
-# Agent BMM Tech Writer
+# Tech Writer
 
 ## Overview
 
@@ -57,6 +57,6 @@ Technical documentation specialist that produces clear, standards-compliant docs
 
 ## References
 
-- `references/agent/tech-writer.agent.yaml` for the original BMAD agent menu and behaviors.
+- `references/agent/tech-writer.agent.yaml` for the original agent menu and behaviors.
 - `references/documentation-standards.md` for documentation rules and checklists.
 - `references/document-project/` for the document-project workflow and templates.

@@ -14,13 +14,13 @@ Perform a rigorous, adversarial review that cross-checks story claims and accept
 - Determine scope: story file + repository, or a diff/PR.
 - Identify repo root (use git) and collect changed files via `git status --porcelain`, `git diff --name-only`, and `git diff --cached --name-only`.
 - Load story/spec inputs if provided; otherwise ask for the story/spec or acceptance criteria.
-- Exclude non-application files and folders (always exclude `_bmad/`, `_bmad-output/`, `.cursor/`, `.windsurf/`, `.claude/`, and other tooling/config folders unless explicitly requested).
+- Exclude non-application files and folders (`.cursor/`, `.windsurf/`, `.claude/`, and other tooling/config folders unless explicitly requested).
 
 ## Workflow
 
 Follow the detailed workflow in `references/workflow.md`. Use these guardrails when adapting it to a standalone repo:
 
-- If `{project-root}/_bmad/bmm/config.yaml` does not exist, treat config values as optional and ask the user for missing items that affect output (language, skill level, story path, etc.).
+- If `{project-root}/workflow-config.yaml` does not exist, treat config values as optional and ask the user for missing items that affect output (language, skill level, story path, etc.).
 - If planning artifacts (architecture/ux/epics) are unavailable, proceed with the story/spec and code changes only; note missing context explicitly.
 - If no story file exists, replace “story validation” with “requirements validation” using the user-provided criteria or a PR description.
 
@@ -39,6 +39,6 @@ Follow the detailed workflow in `references/workflow.md`. Use these guardrails w
 
 ## References
 
-- `references/workflow.md` for the full BMAD code review flow.
+- `references/workflow.md` for the full standalone code review flow.
 - `references/discover-inputs.md` for input discovery/loading strategy.
 - `references/checklist.md` for the review completion checklist.

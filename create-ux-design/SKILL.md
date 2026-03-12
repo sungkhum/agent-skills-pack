@@ -1,9 +1,9 @@
 ---
 name: create-ux-design
-description: Standalone BMAD UX design specification workflow. Use when the user asks to create UX design specs, plan UX patterns, define UX strategy, or produce a UX design specification document.
+description: Standalone UX design specification workflow. Use when the user asks to create UX design specs, plan UX patterns, define UX strategy, or produce a UX design specification document.
 ---
 
-# BMM Create UX Design
+# Create UX Design
 
 ## Overview
 
@@ -15,7 +15,7 @@ Create comprehensive UX design specifications through a structured, step-by-step
 
 ## Quick Start
 
-- Load config if present; if `{project-root}/_bmad/bmm/config.yaml` is missing, treat config values as optional and ask for missing items that affect output.
+- Load config if present; if `{project-root}/workflow-config.yaml` is missing, treat config values as optional and ask for missing items that affect output.
 - Create the output document using `references/ux-design-template.md` at `{planning_artifacts}/ux-design-specification.md` (or a user-provided path).
 - Start with `references/steps/step-01-init.md` and follow the chain of steps exactly.
 
