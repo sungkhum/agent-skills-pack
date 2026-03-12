@@ -15,16 +15,20 @@ This repository contains standalone AI skills adapted from selected workflows/ta
 
 ## Install
 
-Install all skills from GitHub:
+Interactive install (recommended):
 
 ```bash
-npx -y skills add https://github.com/sungkhum/agent-skills-pack --agent codex --yes --copy
+npx -y skills add https://github.com/sungkhum/agent-skills-pack
 ```
 
-Install one specific skill:
+This mode prompts you to:
+- choose which skills to install
+- choose which agent(s) to install to (Codex, Claude, etc.)
+
+Install one specific skill (still interactive for agent selection):
 
 ```bash
-npx -y skills add https://github.com/sungkhum/agent-skills-pack --skill code-review --agent codex --yes --copy
+npx -y skills add https://github.com/sungkhum/agent-skills-pack --skill code-review
 ```
 
 List available skills before installing:
@@ -32,6 +36,16 @@ List available skills before installing:
 ```bash
 npx -y skills add https://github.com/sungkhum/agent-skills-pack --list
 ```
+
+Non-interactive install (optional):
+
+```bash
+npx -y skills add https://github.com/sungkhum/agent-skills-pack --agent codex --yes --copy
+```
+
+- `--yes` skips confirmation prompts.
+- `--copy` copies files into your agent directory instead of symlinking them.
+- If you omit `--copy`, the CLI symlinks by default.
 
 After install, restart Codex so newly installed skills are picked up.
 
