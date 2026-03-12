@@ -13,6 +13,28 @@ This repository contains standalone AI skills adapted from selected workflows/ta
 - `tech-writer`
 - `ux-designer`
 
+## Install
+
+Install all skills from GitHub:
+
+```bash
+npx -y skills add https://github.com/sungkhum/agent-skills-pack --agent codex --yes --copy
+```
+
+Install one specific skill:
+
+```bash
+npx -y skills add https://github.com/sungkhum/agent-skills-pack --skill code-review --agent codex --yes --copy
+```
+
+List available skills before installing:
+
+```bash
+npx -y skills add https://github.com/sungkhum/agent-skills-pack --list
+```
+
+After install, restart Codex so newly installed skills are picked up.
+
 ## Attribution
 
 These skills are adapted from the BMAD project:
